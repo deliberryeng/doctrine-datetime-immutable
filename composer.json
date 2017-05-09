@@ -1,0 +1,22 @@
+{
+    "name": "deliberry/doctrine-datetime-immutable",
+    "description": "Start using DateTimeImmutable with Doctrine, the easy way.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Berny Cantos",
+            "email": "be@rny.cc"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Deliberry\\Doctrine\\DateTimeImmutable\\": "src"
+        }
+    },
+    "require": {
+        "doctrine/dbal": "^2.0",
+
+        "php": ">=5.5"
+    }
+}
